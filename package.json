@@ -12,10 +12,13 @@
         "test": "nyc --reporter=html --reporter=text --reporter=lcov mocha -r @babel/register"
     },
     "dependencies": {
+        "airtable": "^0.10.0",
+        "axios": "^0.20.0",
         "cookie-parser": "~1.4.4",
         "debug": "~2.6.9",
         "dotenv": "^8.2.0",
         "express": "~4.16.1",
+        "express-async-handler": "^1.1.4",
         "http-errors": "~1.6.3",
         "morgan": "~1.9.1"
     },
@@ -23,6 +26,7 @@
         "@babel/cli": "^7.11.6",
         "@babel/core": "^7.11.6",
         "@babel/node": "^7.10.5",
+        "@babel/plugin-proposal-class-properties": "^7.10.4",
         "@babel/plugin-transform-runtime": "^7.11.5",
         "@babel/preset-env": "^7.11.5",
         "@babel/preset-flow": "^7.10.4",

@@ -1,13 +1,16 @@
 [ignore]
+.*/build/.*
+.*/dist/.*
 
 [include]
 
 [libs]
-./flow-typed/
+flow-typed
 ./flow-custom/
 
 [lints]
 
 [options]
+types_first=false
 
 [strict]
